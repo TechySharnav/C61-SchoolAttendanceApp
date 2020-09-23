@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "school-attendance",
-    "slug": "school-attendance",
+    "name": "c60:-school-attendance-app",
+    "slug": "snack-274f01cc-e079-455c-b8f5-6531bd7851b4",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,7 +17,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sharnavtech.attendanceapp"
+    },
+    "android": {
+      "package": "com.sharnavtech.attendanceapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
