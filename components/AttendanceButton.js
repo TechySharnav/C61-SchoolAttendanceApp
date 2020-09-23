@@ -85,9 +85,7 @@ export default class AttendanceButton extends React.Component {
     });
   };
 
-  componentDidMount() {
-    setInterval(this.checkAttend, 2000);
-  }
+  componentDidMount() {}
 
   updateAttendance(roll, status) {
     var id = "";
