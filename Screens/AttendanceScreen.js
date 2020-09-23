@@ -41,10 +41,7 @@ export default class AttendanceScreen extends React.Component {
   };
 
   componentDidMount() {
-    var int = setInterval(this.showStudents, 1000);
-    setTimeout(function () {
-      clearInterval(int);
-    }, 1100);
+    setInterval(this.showStudents, 1000);
   }
 
   render() {
