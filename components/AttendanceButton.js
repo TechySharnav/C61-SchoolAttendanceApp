@@ -51,7 +51,7 @@ export default class AttendanceButton extends React.Component {
     }
 
     var today = new Date();
-    var day = today.getDay();
+    var day = today.getDate();
     var mm = today.getMonth();
     var yy = today.getFullYear();
 
@@ -98,7 +98,7 @@ export default class AttendanceButton extends React.Component {
     }
 
     var today = new Date();
-    var day = today.getDay();
+    var day = today.getDate();
     var mm = today.getMonth() + 1;
     var yy = today.getFullYear();
 

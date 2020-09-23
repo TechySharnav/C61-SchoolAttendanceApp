@@ -23,7 +23,7 @@ export default class SummaryScreen extends React.Component {
       chk = data.val();
     });
     var today = new Date();
-    var day = today.getDay();
+    var day = today.getDate();
     var mm = today.getMonth() + 1;
     var yy = today.getFullYear();
 
